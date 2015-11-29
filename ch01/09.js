@@ -5,3 +5,7 @@ function gcd(a, b) {
     return Math.abs(b);
   return gcd(b, a % b);
 }
+
+function gcd3(a,b,c){
+  return gcd(gcd(a,b), c);
+}
