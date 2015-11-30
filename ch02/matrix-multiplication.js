@@ -1,3 +1,4 @@
+//matrix multiplication in O(n^3) time
 function multiply(m1,m2){
   var rows = m1.length,
       columns = m1[0].length,
