@@ -12,4 +12,4 @@ function sort(array){
   return array;
 }
 
-console.log(sort([192,2,100,-1]))
+console.log(sort([192,2,100,-1]));
